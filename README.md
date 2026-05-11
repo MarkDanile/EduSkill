@@ -1,6 +1,6 @@
 # EduSkill - 中高职教学管理AI数字化技能平台
 
-> 基于飞书生态的中高职教学管理AI数字化转型解决方案
+> 中高职教学管理AI数字化转型解决方案
 
 ## 📋 项目简介
 
@@ -54,6 +54,8 @@ EduSkill/
 
 **文件位置：** `.trae/skills/lark-vocational-talent-survey/`
 
+**下载包：** `.trae/skills/lark-vocational-talent-survey.zip`
+
 ---
 
 ## 🚀 快速开始
@@ -76,12 +78,12 @@ ls -la .trae/skills/
 cat .trae/skills/lark-vocational-talent-survey/SKILL.md
 ```
 
-### 安装技能到其他平台
+### 下载技能包
 
-每个技能已打包为 `.skill` 文件，可直接分发：
+每个技能已打包为 `.zip` 文件，可直接下载使用：
 
 ```bash
-ls -la .trae/skills/*.skill
+ls -la .trae/skills/*.zip
 ```
 
 ---
@@ -310,8 +312,8 @@ Coze 支持通过 Bot 对话形式使用技能。导出步骤：
 # 初始化新技能
 python3 scripts/init_skill.py <skill-name> --path <output-path>
 
-# 打包技能
-python3 scripts/package_skill.py <skill-folder>
+# 打包技能为 zip
+python3 scripts/package_skill.py <skill-folder> --output-dir <output-dir>
 ```
 
 ### 技能验证工具
@@ -340,6 +342,7 @@ python3 scripts/validate_skill.py <skill-folder>
 - [ ] 模板文件格式正确
 - [ ] 通过打包验证
 - [ ] 测试对话通过
+- [ ] 打包为 .zip 文件
 
 ---
 
@@ -359,5 +362,4 @@ python3 scripts/validate_skill.py <skill-folder>
 ## 🔗 相关资源
 
 - [skill-creator 技能开发规范](https://github.com/MarkDanile/EduSkill/blob/main/.trae/specs/skill-architecture-design/spec.md)
-- [飞书开放平台](https://open.feishu.cn/)
 - [Coze 平台](https://www.coze.cn/)
