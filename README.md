@@ -20,18 +20,18 @@ EduSkill 是一个面向中高职院校教学管理AI数字化的技能开发项
 
 ```
 EduSkill/
-├── .trae/
-│   ├── skills/                    # 已开发的AI技能
-│   │   └── lark-vocational-talent-survey/  # 技能1：人才需求调研
-│   │       ├── SKILL.md
-│   │       ├── references/         # 参考文档
-│   │       └── templates/         # 文档模板
-│   │
-│   └── specs/                     # 开发规范文档
-│       └── skill-architecture-design/
-│           ├── spec.md            # 技能设计规范
-│           ├── tasks.md           # 开发任务清单
-│           └── checklist.md       # 验收清单
+├── skills/                              # AI技能目录
+│   ├── lark-vocational-talent-survey/   # 技能1：人才需求调研
+│   │   ├── SKILL.md
+│   │   ├── references/                   # 参考文档
+│   │   └── templates/                    # 文档模板
+│   └── ...                               # 更多技能
+│
+├── specs/                                # 开发规范文档
+│   └── skill-architecture-design/
+│       ├── spec.md                       # 技能设计规范
+│       ├── tasks.md                      # 开发任务清单
+│       └── checklist.md                  # 验收清单
 │
 └── README.md
 ```
@@ -52,9 +52,9 @@ EduSkill/
 用户回答核心问题 → AI自动搜索政策/行业数据 → AI自动填充各章节 → 生成文档
 ```
 
-**文件位置：** `.trae/skills/lark-vocational-talent-survey/`
+**文件位置：** `skills/lark-vocational-talent-survey/`
 
-**下载包：** `.trae/skills/lark-vocational-talent-survey.zip`
+**下载包：** `skills/lark-vocational-talent-survey.zip`
 
 ---
 
@@ -70,12 +70,12 @@ cd EduSkill
 
 2. **查看已发布的技能**
 ```bash
-ls -la .trae/skills/
+ls -la skills/
 ```
 
 3. **查看技能详情**
 ```bash
-cat .trae/skills/lark-vocational-talent-survey/SKILL.md
+cat skills/lark-vocational-talent-survey/SKILL.md
 ```
 
 ### 下载技能包
@@ -83,7 +83,7 @@ cat .trae/skills/lark-vocational-talent-survey/SKILL.md
 每个技能已打包为 `.zip` 文件，可直接下载使用：
 
 ```bash
-ls -la .trae/skills/*.zip
+ls -la skills/*.zip
 ```
 
 ---
@@ -92,7 +92,7 @@ ls -la .trae/skills/*.zip
 
 ### 开发流程
 
-按照 [skill-creator](https://github.com/MarkDanile/EduSkill/blob/main/.trae/specs/skill-architecture-design/spec.md) 规范开发：
+按照 [skill-creator](https://github.com/MarkDanile/EduSkill/blob/main/specs/skill-architecture-design/spec.md) 规范开发：
 
 ```
 1. 收集管理制度 → 梳理工作流程
@@ -361,5 +361,5 @@ python3 scripts/validate_skill.py <skill-folder>
 
 ## 🔗 相关资源
 
-- [skill-creator 技能开发规范](https://github.com/MarkDanile/EduSkill/blob/main/.trae/specs/skill-architecture-design/spec.md)
+- [skill-creator 技能开发规范](https://github.com/MarkDanile/EduSkill/blob/main/specs/skill-architecture-design/spec.md)
 - [Coze 平台](https://www.coze.cn/)
