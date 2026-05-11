@@ -13,11 +13,11 @@
 ```
 EduSkill/
 ├── skills/                              # AI技能目录
-│   ├── lark-vocational-talent-survey/  # Skill 1
+│   ├── edu-vocational-talent-survey/  # Skill 1
 │   │   ├── SKILL.md
 │   │   ├── references/                  # 参考文档
 │   │   └── templates/                  # 文档模板
-│   ├── lark-vocational-major-application/  # Skill 2
+│   ├── edu-vocational-major-application/  # Skill 2
 │   └── ...                              # 更多技能
 │
 ├── specs/                               # 开发规范文档
@@ -150,47 +150,47 @@ skill-name/
 
 | ID | Skill名称 | 功能 | 状态 |
 |----|----------|------|------|
-| 1 | lark-vocational-talent-survey | 专业人才需求调研 | ✅ 已完成 |
-| 2 | lark-vocational-major-application | 新专业申报备案 | 📋 待开发 |
-| 3 | lark-vocational-major-planning | 专业建设子规划 | 📋 待开发 |
-| 4 | lark-vocational-teaching-scheme | 专业教学实施方案 | 📋 待开发 |
-| 5 | lark-vocational-course-standard | 课程标准管理 | 📋 待开发 |
-| 6 | lark-vocational-major-evaluation | 专业建设评价 | 📋 待开发 |
-| 7 | lark-vocational-semester-plan | 部门学期工作计划 | 📋 待开发 |
-| 8 | lark-vocational-calendar | 校历编制 | 📋 待开发 |
-| 9 | lark-vocational-textbook | 教材选用与征订 | 📋 待开发 |
-| 10 | lark-vocational-course-adjustment | 调代课管理 | 📋 待开发 |
-| 11 | lark-vocational-teaching-plan | 授课计划管理 | 📋 待开发 |
-| 12 | lark-vocational-lesson-plan | 教案管理 | ✅ 已完成 |
-| 13 | lark-vocational-classroom-teaching | 课堂教学记录 | 📋 待开发 |
-| 14 | lark-vocational-homework | 作业批改管理 | 📋 待开发 |
-| 15 | lark-vocational-tutoring | 课外辅导答疑 | 📋 待开发 |
-| 16 | lark-vocational-teaching-log | 教学日志 | 📋 待开发 |
-| 17 | lark-vocational-practice-management | 实训实习管理 | 📋 待开发 |
-| 18 | lark-vocational-exam-management | 考务管理 | 📋 待开发 |
+| 1 | edu-vocational-talent-survey | 专业人才需求调研 | ✅ 已完成 |
+| 2 | edu-vocational-major-application | 新专业申报备案 | 📋 待开发 |
+| 3 | edu-vocational-major-planning | 专业建设子规划 | 📋 待开发 |
+| 4 | edu-vocational-teaching-scheme | 专业教学实施方案 | 📋 待开发 |
+| 5 | edu-vocational-course-standard | 课程标准管理 | 📋 待开发 |
+| 6 | edu-vocational-major-evaluation | 专业建设评价 | 📋 待开发 |
+| 7 | edu-vocational-semester-plan | 部门学期工作计划 | 📋 待开发 |
+| 8 | edu-vocational-calendar | 校历编制 | 📋 待开发 |
+| 9 | edu-vocational-textbook | 教材选用与征订 | 📋 待开发 |
+| 10 | edu-vocational-course-adjustment | 调代课管理 | 📋 待开发 |
+| 11 | edu-vocational-teaching-plan | 授课计划管理 | 📋 待开发 |
+| 12 | edu-vocational-lesson-plan | 教案管理 | ✅ 已完成 |
+| 13 | edu-vocational-classroom-teaching | 课堂教学记录 | 📋 待开发 |
+| 14 | edu-vocational-homework | 作业批改管理 | 📋 待开发 |
+| 15 | edu-vocational-tutoring | 课外辅导答疑 | 📋 待开发 |
+| 16 | edu-vocational-teaching-log | 教学日志 | 📋 待开发 |
+| 17 | edu-vocational-practice-management | 实训实习管理 | 📋 待开发 |
+| 18 | edu-vocational-exam-management | 考务管理 | 📋 待开发 |
 
 ### Phase 2: 扩展完善（18个扩展Skill）
 
 | ID | Skill名称 | 功能 | 状态 |
 |----|----------|------|------|
-| 19 | lark-vocational-academic-meeting | 教务联席会议 | 📋 待开发 |
-| 20 | lark-vocational-supervision | 教学督导检查 | 📋 待开发 |
-| 21 | lark-vocational-classroom-observation | 听课评课 | 📋 待开发 |
-| 22 | lark-vocational-teaching-research | 教研活动 | 📋 待开发 |
-| 23 | lark-vocational-parent-meeting | 家长会 | 📋 待开发 |
-| 24 | lark-vocational-training-center | 实训中心管理 | 📋 待开发 |
-| 25 | lark-vocational-online-course | 网络课程管理 | 📋 待开发 |
-| 26 | lark-vocational-credit-management | 学分制管理 | 📋 待开发 |
-| 27 | lark-vocational-student-status | 学生学籍管理 | 📋 待开发 |
-| 28 | lark-vocational-teacher-planning | 师资队伍规划 | 📋 待开发 |
-| 29 | lark-vocational-teacher-training | 教师培养计划 | 📋 待开发 |
-| 30 | lark-vocational-teacher-evaluation | 教师考核评价 | 📋 待开发 |
-| 31 | lark-vocational-teacher-mentoring | 新教师带教 | 📋 待开发 |
-| 32 | lark-vocational-enterprise-practice | 企业实践锻炼 | 📋 待开发 |
-| 33 | lark-vocational-research-management | 科研课题管理 | 📋 待开发 |
-| 34 | lark-vocational-teacher-archive | 教师业务档案 | 📋 待开发 |
-| 35 | lark-vocational-library | 图书馆管理 | 📋 待开发 |
-| 36 | lark-vocational-classroom-booking | 教学场地借用 | 📋 待开发 |
+| 19 | edu-vocational-academic-meeting | 教务联席会议 | 📋 待开发 |
+| 20 | edu-vocational-supervision | 教学督导检查 | 📋 待开发 |
+| 21 | edu-vocational-classroom-observation | 听课评课 | 📋 待开发 |
+| 22 | edu-vocational-teaching-research | 教研活动 | 📋 待开发 |
+| 23 | edu-vocational-parent-meeting | 家长会 | 📋 待开发 |
+| 24 | edu-vocational-training-center | 实训中心管理 | 📋 待开发 |
+| 25 | edu-vocational-online-course | 网络课程管理 | 📋 待开发 |
+| 26 | edu-vocational-credit-management | 学分制管理 | 📋 待开发 |
+| 27 | edu-vocational-student-status | 学生学籍管理 | 📋 待开发 |
+| 28 | edu-vocational-teacher-planning | 师资队伍规划 | 📋 待开发 |
+| 29 | edu-vocational-teacher-training | 教师培养计划 | 📋 待开发 |
+| 30 | edu-vocational-teacher-evaluation | 教师考核评价 | 📋 待开发 |
+| 31 | edu-vocational-teacher-mentoring | 新教师带教 | 📋 待开发 |
+| 32 | edu-vocational-enterprise-practice | 企业实践锻炼 | 📋 待开发 |
+| 33 | edu-vocational-research-management | 科研课题管理 | 📋 待开发 |
+| 34 | edu-vocational-teacher-archive | 教师业务档案 | 📋 待开发 |
+| 35 | edu-vocational-library | 图书馆管理 | 📋 待开发 |
+| 36 | edu-vocational-classroom-booking | 教学场地借用 | 📋 待开发 |
 
 ---
 
@@ -208,7 +208,7 @@ skill-name/
 
 ---
 
-### Skill 1: lark-vocational-talent-survey（专业人才需求调研）
+### Skill 1: edu-vocational-talent-survey（专业人才需求调研）
 
 #### 功能定位
 覆盖专业设置前的市场需求调研全流程，包括调研方案制定、调研实施、报告编制。
@@ -227,7 +227,7 @@ skill-name/
 
 ---
 
-### Skill 2: lark-vocational-major-application（新专业申报备案）
+### Skill 2: edu-vocational-major-application（新专业申报备案）
 
 #### 功能定位
 覆盖新专业开设可行性论证与上海市新专业申报备案。

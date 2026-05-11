@@ -39,7 +39,7 @@
 
 ## Phase 1: 基础建设（18个核心Skill）
 
-### Skill 1: lark-vocational-talent-survey（专业人才需求调研）
+### Skill 1: edu-vocational-talent-survey（专业人才需求调研）
 
 **开发状态：✅ 已完成**
 
@@ -74,17 +74,17 @@
 
 | ID | Skill名称 | 功能 | 开发规范检查 | 功能验收 |
 |----|----------|------|-------------|---------|
-| 2 | lark-vocational-major-application | 新专业申报备案 | ⬜ | ⬜ |
-| 3 | lark-vocational-major-planning | 专业建设子规划 | ⬜ | ⬜ |
-| 4 | lark-vocational-teaching-scheme | 专业教学实施方案 | ⬜ | ⬜ |
-| 5 | lark-vocational-course-standard | 课程标准管理 | ⬜ | ⬜ |
-| 6 | lark-vocational-major-evaluation | 专业建设评价 | ⬜ | ⬜ |
-| 7 | lark-vocational-semester-plan | 部门学期工作计划 | ⬜ | ⬜ |
-| 8 | lark-vocational-calendar | 校历编制 | ⬜ | ⬜ |
-| 9 | lark-vocational-textbook | 教材选用与征订 | ⬜ | ⬜ |
-| 10 | lark-vocational-course-adjustment | 调代课管理 | ⬜ | ⬜ |
-| 11 | lark-vocational-teaching-plan | 授课计划管理 | ⬜ | ⬜ |
-### Skill 12: lark-vocational-lesson-plan（教案管理）
+| 2 | edu-vocational-major-application | 新专业申报备案 | ⬜ | ⬜ |
+| 3 | edu-vocational-major-planning | 专业建设子规划 | ⬜ | ⬜ |
+| 4 | edu-vocational-teaching-scheme | 专业教学实施方案 | ⬜ | ⬜ |
+| 5 | edu-vocational-course-standard | 课程标准管理 | ⬜ | ⬜ |
+| 6 | edu-vocational-major-evaluation | 专业建设评价 | ⬜ | ⬜ |
+| 7 | edu-vocational-semester-plan | 部门学期工作计划 | ⬜ | ⬜ |
+| 8 | edu-vocational-calendar | 校历编制 | ⬜ | ⬜ |
+| 9 | edu-vocational-textbook | 教材选用与征订 | ⬜ | ⬜ |
+| 10 | edu-vocational-course-adjustment | 调代课管理 | ⬜ | ⬜ |
+| 11 | edu-vocational-teaching-plan | 授课计划管理 | ⬜ | ⬜ |
+### Skill 12: edu-vocational-lesson-plan（教案管理）
 
 **开发状态：✅ 已完成**
 
@@ -103,12 +103,12 @@
 
 | ID | Skill名称 | 功能 | 开发规范检查 | 功能验收 |
 |----|----------|------|-------------|---------|
-| 13 | lark-vocational-classroom-teaching | 课堂教学记录 | ⬜ | ⬜ |
-| 14 | lark-vocational-homework | 作业批改管理 | ⬜ | ⬜ |
-| 15 | lark-vocational-tutoring | 课外辅导答疑 | ⬜ | ⬜ |
-| 16 | lark-vocational-teaching-log | 教学日志 | ⬜ | ⬜ |
-| 17 | lark-vocational-practice-management | 实训实习管理 | ⬜ | ⬜ |
-| 18 | lark-vocational-exam-management | 考务管理 | ⬜ | ⬜ |
+| 13 | edu-vocational-classroom-teaching | 课堂教学记录 | ⬜ | ⬜ |
+| 14 | edu-vocational-homework | 作业批改管理 | ⬜ | ⬜ |
+| 15 | edu-vocational-tutoring | 课外辅导答疑 | ⬜ | ⬜ |
+| 16 | edu-vocational-teaching-log | 教学日志 | ⬜ | ⬜ |
+| 17 | edu-vocational-practice-management | 实训实习管理 | ⬜ | ⬜ |
+| 18 | edu-vocational-exam-management | 考务管理 | ⬜ | ⬜ |
 
 ---
 
@@ -116,24 +116,24 @@
 
 | ID | Skill名称 | 功能 | 开发规范检查 | 功能验收 |
 |----|----------|------|-------------|---------|
-| 19 | lark-vocational-academic-meeting | 教务联席会议 | ⬜ | ⬜ |
-| 20 | lark-vocational-supervision | 教学督导检查 | ⬜ | ⬜ |
-| 21 | lark-vocational-classroom-observation | 听课评课 | ⬜ | ⬜ |
-| 22 | lark-vocational-teaching-research | 教研活动 | ⬜ | ⬜ |
-| 23 | lark-vocational-parent-meeting | 家长会 | ⬜ | ⬜ |
-| 24 | lark-vocational-training-center | 实训中心管理 | ⬜ | ⬜ |
-| 25 | lark-vocational-online-course | 网络课程管理 | ⬜ | ⬜ |
-| 26 | lark-vocational-credit-management | 学分制管理 | ⬜ | ⬜ |
-| 27 | lark-vocational-student-status | 学生学籍管理 | ⬜ | ⬜ |
-| 28 | lark-vocational-teacher-planning | 师资队伍规划 | ⬜ | ⬜ |
-| 29 | lark-vocational-teacher-training | 教师培养计划 | ⬜ | ⬜ |
-| 30 | lark-vocational-teacher-evaluation | 教师考核评价 | ⬜ | ⬜ |
-| 31 | lark-vocational-teacher-mentoring | 新教师带教 | ⬜ | ⬜ |
-| 32 | lark-vocational-enterprise-practice | 企业实践锻炼 | ⬜ | ⬜ |
-| 33 | lark-vocational-research-management | 科研课题管理 | ⬜ | ⬜ |
-| 34 | lark-vocational-teacher-archive | 教师业务档案 | ⬜ | ⬜ |
-| 35 | lark-vocational-library | 图书馆管理 | ⬜ | ⬜ |
-| 36 | lark-vocational-classroom-booking | 教学场地借用 | ⬜ | ⬜ |
+| 19 | edu-vocational-academic-meeting | 教务联席会议 | ⬜ | ⬜ |
+| 20 | edu-vocational-supervision | 教学督导检查 | ⬜ | ⬜ |
+| 21 | edu-vocational-classroom-observation | 听课评课 | ⬜ | ⬜ |
+| 22 | edu-vocational-teaching-research | 教研活动 | ⬜ | ⬜ |
+| 23 | edu-vocational-parent-meeting | 家长会 | ⬜ | ⬜ |
+| 24 | edu-vocational-training-center | 实训中心管理 | ⬜ | ⬜ |
+| 25 | edu-vocational-online-course | 网络课程管理 | ⬜ | ⬜ |
+| 26 | edu-vocational-credit-management | 学分制管理 | ⬜ | ⬜ |
+| 27 | edu-vocational-student-status | 学生学籍管理 | ⬜ | ⬜ |
+| 28 | edu-vocational-teacher-planning | 师资队伍规划 | ⬜ | ⬜ |
+| 29 | edu-vocational-teacher-training | 教师培养计划 | ⬜ | ⬜ |
+| 30 | edu-vocational-teacher-evaluation | 教师考核评价 | ⬜ | ⬜ |
+| 31 | edu-vocational-teacher-mentoring | 新教师带教 | ⬜ | ⬜ |
+| 32 | edu-vocational-enterprise-practice | 企业实践锻炼 | ⬜ | ⬜ |
+| 33 | edu-vocational-research-management | 科研课题管理 | ⬜ | ⬜ |
+| 34 | edu-vocational-teacher-archive | 教师业务档案 | ⬜ | ⬜ |
+| 35 | edu-vocational-library | 图书馆管理 | ⬜ | ⬜ |
+| 36 | edu-vocational-classroom-booking | 教学场地借用 | ⬜ | ⬜ |
 
 ---
 

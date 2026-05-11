@@ -1,5 +1,5 @@
 ---
-name: lark-vocational-talent-survey
+name: edu-vocational-talent-survey
 description: 专业人才需求调研方案编制与报告生成。用于中高职院校开展专业人才需求调研工作，通过对话引导用户完成调研方案制定，AI辅助搜集市场数据，生成标准格式的调研方案和调研报告。触发场景：教务主任/专业带头人需要制定专业人才需求调研方案、撰写调研报告、审批调研方案。
 ---
 
