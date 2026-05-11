@@ -266,7 +266,7 @@ Coze 支持通过 Bot 对话形式使用技能。导出步骤：
 | 9 | lark-vocational-textbook | 教材选用与征订 | 📋 待开发 |
 | 10 | lark-vocational-course-adjustment | 调代课管理 | 📋 待开发 |
 | 11 | lark-vocational-teaching-plan | 授课计划管理 | 📋 待开发 |
-| 12 | lark-vocational-lesson-plan | 教案管理 | 📋 待开发 |
+| 12 | lark-vocational-lesson-plan | 教案管理 | ✅ 已完成 |
 | 13 | lark-vocational-classroom-teaching | 课堂教学记录 | 📋 待开发 |
 | 14 | lark-vocational-homework | 作业批改管理 | 📋 待开发 |
 | 15 | lark-vocational-tutoring | 课外辅导答疑 | 📋 待开发 |

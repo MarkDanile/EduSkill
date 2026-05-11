@@ -84,7 +84,25 @@
 | 9 | lark-vocational-textbook | 教材选用与征订 | ⬜ | ⬜ |
 | 10 | lark-vocational-course-adjustment | 调代课管理 | ⬜ | ⬜ |
 | 11 | lark-vocational-teaching-plan | 授课计划管理 | ⬜ | ⬜ |
-| 12 | lark-vocational-lesson-plan | 教案管理 | ⬜ | ⬜ |
+### Skill 12: lark-vocational-lesson-plan（教案管理）
+
+**开发状态：✅ 已完成**
+
+**功能验收**:
+- [x] SKILL.md 文件完整
+- [x] 精准/快速两种模式
+- [x] 表格式/讲义式/提纲式三种教案形式
+- [x] references/templates/ 教案模板完整
+- [x] references/standards/ 设计原则完整
+- [x] assets/templates/ 三种模板文件完整
+- [x] references/examples/ 示例教案完整
+
+---
+
+### Skill 13-18: 待开发
+
+| ID | Skill名称 | 功能 | 开发规范检查 | 功能验收 |
+|----|----------|------|-------------|---------|
 | 13 | lark-vocational-classroom-teaching | 课堂教学记录 | ⬜ | ⬜ |
 | 14 | lark-vocational-homework | 作业批改管理 | ⬜ | ⬜ |
 | 15 | lark-vocational-tutoring | 课外辅导答疑 | ⬜ | ⬜ |
@@ -123,9 +141,9 @@
 
 | 阶段 | 总数 | 已完成 | 开发中 | 待开发 |
 |------|------|--------|--------|--------|
-| Phase 1 | 18 | 1 | 0 | 17 |
+| Phase 1 | 18 | 2 | 0 | 16 |
 | Phase 2 | 18 | 0 | 0 | 18 |
-| **总计** | **36** | **1** | **0** | **35** |
+| **总计** | **36** | **2** | **0** | **34** |
 
 ---
 
