@@ -254,7 +254,7 @@ Coze 支持通过 Bot 对话形式使用技能。导出步骤：
 | 编号 | 技能名称 | 功能 | 状态 |
 |------|----------|------|------|
 | 1 | lark-vocational-talent-survey | 专业人才需求调研 | ✅ 已完成 |
-| 2 | lark-vocational-major-application | 新专业申报备案 | 🔄 开发中 |
+| 2 | lark-vocational-major-application | 新专业申报备案 | 📋 待开发 |
 | 3 | lark-vocational-major-planning | 专业建设子规划 | 📋 待开发 |
 | 4 | lark-vocational-teaching-scheme | 专业教学实施方案 | 📋 待开发 |
 | 5 | lark-vocational-course-standard | 课程标准管理 | 📋 待开发 |
@@ -271,12 +271,32 @@ Coze 支持通过 Bot 对话形式使用技能。导出步骤：
 | 16 | lark-vocational-teaching-log | 教学日志 | 📋 待开发 |
 | 17 | lark-vocational-practice-management | 实训实习管理 | 📋 待开发 |
 | 18 | lark-vocational-exam-management | 考务管理 | 📋 待开发 |
+| 19 | lark-vocational-academic-meeting | 教务联席会议 | 📋 待开发 |
+| 20 | lark-vocational-supervision | 教学督导检查 | 📋 待开发 |
+| 21 | lark-vocational-classroom-observation | 听课评课 | 📋 待开发 |
+| 22 | lark-vocational-teaching-research | 教研活动 | 📋 待开发 |
+| 23 | lark-vocational-parent-meeting | 家长会 | 📋 待开发 |
+| 24 | lark-vocational-training-center | 实训中心管理 | 📋 待开发 |
+| 25 | lark-vocational-online-course | 网络课程管理 | 📋 待开发 |
+| 26 | lark-vocational-credit-management | 学分制管理 | 📋 待开发 |
+| 27 | lark-vocational-student-status | 学生学籍管理 | 📋 待开发 |
+| 28 | lark-vocational-teacher-planning | 师资队伍规划 | 📋 待开发 |
+| 29 | lark-vocational-teacher-training | 教师培养计划 | 📋 待开发 |
+| 30 | lark-vocational-teacher-evaluation | 教师考核评价 | 📋 待开发 |
+| 31 | lark-vocational-teacher-mentoring | 新教师带教 | 📋 待开发 |
+| 32 | lark-vocational-enterprise-practice | 企业实践锻炼 | 📋 待开发 |
+| 33 | lark-vocational-research-management | 科研课题管理 | 📋 待开发 |
+| 34 | lark-vocational-teacher-archive | 教师业务档案 | 📋 待开发 |
+| 35 | lark-vocational-library | 图书馆管理 | 📋 待开发 |
+| 36 | lark-vocational-classroom-booking | 教学场地借用 | 📋 待开发 |
 
-### Phase 2: 扩展完善（18个扩展Skill）
+### 开发进度统计
 
-| 编号 | 技能名称 | 功能 | 状态 |
-|------|----------|------|------|
-| 19-36 | （待定） | 详见任务清单 | 📋 待开发 |
+| 阶段 | 总数 | 已完成 | 待开发 |
+|------|------|--------|--------|
+| Phase 1（基础建设） | 18 | 1 | 17 |
+| Phase 2（扩展完善） | 18 | 0 | 18 |
+| **总计** | **36** | **1** | **35** |
 
 ---
 
