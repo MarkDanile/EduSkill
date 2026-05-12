@@ -6,7 +6,7 @@
 | Skill ID | Skill名称 | 状态 | 说明 |
 |----------|----------|------|------|
 | 1 | edu-vocational-talent-survey | ✅ 已完成 | 专业人才需求调研方案编制与报告生成 |
-| 2 | edu-vocational-major-application | ✅ 已完成 | 专业设置可行性分析报告编制与申报备案 |
+| 2 | edu-vocational-feasibility-report | ✅ 已完成 | 专业设置可行性分析报告编制 |
 | 3 | edu-vocational-major-planning | ⏳ 待开发 | 专业建设子规划编制与管理 |
 | 4 | edu-vocational-teaching-scheme | ⏳ 待开发 | 专业教学实施方案（中高职贯通/三年制）编制 |
 | 5 | edu-vocational-course-standard | ⏳ 待开发 | 课程标准审批与管理 |
@@ -55,14 +55,14 @@ EduSkill/
 │   │   └── templates/
 │   │       └── survey-plan-template.md
 │   ├── edu-vocational-talent-survey.zip
-│   ├── edu-vocational-major-application/
+│   ├── edu-vocational-feasibility-report/
 │   │   ├── SKILL.md
 │   │   ├── references/
 │   │   │   ├── workflow.md
 │   │   │   └── policy-guide.md
 │   │   └── templates/
 │   │       └── feasibility-report-template.md
-│   ├── edu-vocational-major-application.zip
+│   ├── edu-vocational-feasibility-report.zip
 │   └── ... (其他34个技能待开发)
 └── README.md
 ```

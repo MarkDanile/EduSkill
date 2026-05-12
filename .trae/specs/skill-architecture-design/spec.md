@@ -11,7 +11,7 @@
 | Skill ID | Skill名称 | 业务领域 | 核心能力 | 状态 |
 |----------|----------|---------|---------|------|
 | 1 | edu-vocational-talent-survey | 专业建设 | 专业人才需求调研方案编制与报告生成 | ✅ 已完成 |
-| 2 | edu-vocational-major-application | 专业建设 | 专业设置可行性分析报告编制与申报备案 | ✅ 已完成 |
+| 2 | edu-vocational-feasibility-report | 专业建设 | 专业设置可行性分析报告编制 | ✅ 已完成 |
 | 3 | edu-vocational-major-planning | 专业建设 | 专业建设子规划编制与管理 | ⏳ 待开发 |
 | 4 | edu-vocational-teaching-scheme | 专业建设 | 专业教学实施方案（中高职贯通/三年制）编制 | ⏳ 待开发 |
 | 5 | edu-vocational-course-standard | 专业建设 | 课程标准审批与管理 | ⏳ 待开发 |
@@ -825,7 +825,7 @@
 
 ### Phase 1: 基础建设（18个核心Skill）
 1. **edu-vocational-talent-survey** - 专业人才需求调研 ✅
-2. **edu-vocational-major-application** - 专业设置可行性分析 ✅
+2. **edu-vocational-feasibility-report** - 专业设置可行性分析报告编制 ✅
 3. **edu-vocational-major-planning** - 专业建设子规划
 4. **edu-vocational-teaching-scheme** - 专业教学实施方案
 5. **edu-vocational-course-standard** - 课程标准管理
