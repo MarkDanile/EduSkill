@@ -11,19 +11,19 @@
 
 ## Phase 1: 基础建设（18个核心Skill）验收清单
 
-### Skill 1: lark-vocational-talent-survey（专业人才需求调研）
+### Skill 1: edu-vocational-talent-survey（专业人才需求调研）✅
 
 **多维表格结构验收**:
-- [ ] 调研方案表字段设计完整（含调研对象、调研内容、调研周期等）
-- [ ] 调研报告表包含数据分析、结论建议等字段
+- [x] 调研方案表字段设计完整（含调研对象、调研内容、调研周期等）
+- [x] 调研报告表包含数据分析、结论建议等字段
 
 **工作流程自动化验收**:
-- [ ] 调研方案审批流程支持多级审批
-- [ ] 调研报告审核流程状态流转正确
+- [x] 调研方案审批流程支持多级审批
+- [x] 调研报告审核流程状态流转正确
 
 **文档模板验收**:
-- [ ] 专业人才需求调研方案模板格式规范
-- [ ] 专业人才需求调研报告模板包含市场分析、数据汇总
+- [x] 专业人才需求调研方案模板格式规范
+- [x] 专业人才需求调研报告模板包含市场分析、数据汇总
 
 **分析仪表盘验收**:
 - [ ] 调研进度看板可实时查看
@@ -31,28 +31,28 @@
 
 ---
 
-### Skill 2: lark-vocational-major-application（新专业申报备案）
+### Skill 2: edu-vocational-major-application（专业设置可行性分析）✅
 
 **多维表格结构验收**:
-- [ ] 可行性分析报告表字段设计完整
-- [ ] 新设专业备案表符合上海市申报要求
-- [ ] 专家评审记录表包含专家信息、评审意见
+- [x] 可行性分析报告表字段设计完整
+- [x] 新设专业备案表符合上海市申报要求
+- [x] 专家评审记录表包含专家信息、评审意见
 
 **工作流程自动化验收**:
-- [ ] 可行性分析审批流程支持多级审批
-- [ ] 新专业申报审批流程符合学校规定
+- [x] 可行性分析审批流程支持多级审批
+- [x] 新专业申报审批流程符合学校规定
 
 **文档模板验收**:
-- [ ] 专业设置可行性分析报告模板包含市场分析、可行性论证
-- [ ] 新设专业备案表模板符合上海市规范
-- [ ] 专业建设专家指导委员会活动记录模板格式规范
+- [x] 专业设置可行性分析报告模板包含市场分析、可行性论证
+- [x] 新设专业备案表模板符合上海市规范
+- [x] 专业建设专家指导委员会活动记录模板格式规范
 
 **分析仪表盘验收**:
 - [ ] 新专业申报进度看板可实时查看
 
 ---
 
-### Skill 3: lark-vocational-major-planning（专业建设子规划）
+### Skill 3: edu-vocational-major-planning（专业建设子规划）
 
 **多维表格结构验收**:
 - [ ] 专业建设子规划表字段设计完整（含现状分析、发展目标、保障措施等）
@@ -68,7 +68,7 @@
 
 ---
 
-### Skill 4: lark-vocational-teaching-scheme（专业教学实施方案）
+### Skill 4: edu-vocational-teaching-scheme（专业教学实施方案）
 
 **多维表格结构验收**:
 - [ ] 中高职贯通教学实施方案表字段设计完整
@@ -87,7 +87,7 @@
 
 ---
 
-### Skill 5: lark-vocational-course-standard（课程标准管理）
+### Skill 5: edu-vocational-course-standard（课程标准管理）
 
 **多维表格结构验收**:
 - [ ] 课程标准审批表字段设计完整（含课程性质、教学目标、内容标准、学时分配等）
@@ -103,7 +103,7 @@
 
 ---
 
-### Skill 6: lark-vocational-major-evaluation（专业建设评价）
+### Skill 6: edu-vocational-major-evaluation（专业建设评价）
 
 **多维表格结构验收**:
 - [ ] 专业建设评价指标表覆盖培养质量、师资队伍、实训条件等维度
@@ -122,7 +122,7 @@
 
 ---
 
-### Skill 7: lark-vocational-semester-plan（部门学期工作计划）
+### Skill 7: edu-vocational-semester-plan（部门学期工作计划）
 
 **多维表格结构验收**:
 - [ ] 部门学期工作计划表包含部门、学期、工作内容、完成时间等
@@ -138,7 +138,7 @@
 
 ---
 
-### Skill 8: lark-vocational-calendar（校历编制）
+### Skill 8: edu-vocational-calendar（校历编制）
 
 **多维表格结构验收**:
 - [ ] 校历表支持学年/学期切换
@@ -157,7 +157,7 @@
 
 ---
 
-### Skill 9: lark-vocational-textbook（教材选用与征订）
+### Skill 9: edu-vocational-textbook（教材选用与征订）
 
 **多维表格结构验收**:
 - [ ] 教材选用计划表关联教材信息、选用教师、审核状态
@@ -183,7 +183,7 @@
 
 ---
 
-### Skill 10: lark-vocational-course-adjustment（调代课管理）
+### Skill 10: edu-vocational-course-adjustment（调代课管理）
 
 **多维表格结构验收**:
 - [ ] 调（代）课申请表包含课程信息、调课原因、代课教师等
@@ -203,7 +203,7 @@
 
 ---
 
-### Skill 11: lark-vocational-teaching-plan（授课计划管理）
+### Skill 11: edu-vocational-teaching-plan（授课计划管理）
 
 **多维表格结构验收**:
 - [ ] 课程授课计划表关联课程标准、教学周历
@@ -219,7 +219,7 @@
 
 ---
 
-### Skill 12: lark-vocational-lesson-plan（教案管理）
+### Skill 12: edu-vocational-lesson-plan（教案管理）
 
 **多维表格结构验收**:
 - [ ] 教案管理表关联教师、课程、教案版本、审核状态
@@ -235,7 +235,7 @@
 
 ---
 
-### Skill 13: lark-vocational-classroom-teaching（课堂教学记录）
+### Skill 13: edu-vocational-classroom-teaching（课堂教学记录）
 
 **多维表格结构验收**:
 - [ ] 课堂教学记录表包含课程信息、班级、日期、教学内容
@@ -251,7 +251,7 @@
 
 ---
 
-### Skill 14: lark-vocational-homework（作业批改管理）
+### Skill 14: edu-vocational-homework（作业批改管理）
 
 **多维表格结构验收**:
 - [ ] 作业管理表关联课程、作业类型、布置时间、批改状态
@@ -268,7 +268,7 @@
 
 ---
 
-### Skill 15: lark-vocational-tutoring（课外辅导答疑）
+### Skill 15: edu-vocational-tutoring（课外辅导答疑）
 
 **多维表格结构验收**:
 - [ ] 课外辅导计划表包含辅导对象、时间、内容安排
@@ -286,7 +286,7 @@
 
 ---
 
-### Skill 16: lark-vocational-teaching-log（教学日志）
+### Skill 16: edu-vocational-teaching-log（教学日志）
 
 **多维表格结构验收**:
 - [ ] 教学日志表关联班级、教师、日期、教学执行情况
@@ -305,7 +305,7 @@
 
 ---
 
-### Skill 17: lark-vocational-practice-management（实训实习管理）
+### Skill 17: edu-vocational-practice-management（实训实习管理）
 
 **多维表格结构验收**:
 - [ ] 实训教学计划表关联实训项目、场地、设备、指导教师
@@ -335,7 +335,7 @@
 
 ---
 
-### Skill 18: lark-vocational-exam-management（考务管理）
+### Skill 18: edu-vocational-exam-management（考务管理）
 
 **多维表格结构验收**:
 - [ ] 试卷命题管理表包含课程、考试类型、命题人、审核状态
@@ -371,7 +371,7 @@
 
 ## Phase 2: 扩展完善（18个扩展Skill）验收清单
 
-### Skill 19: lark-vocational-academic-meeting（教务联席会议）
+### Skill 19: edu-vocational-academic-meeting（教务联席会议）
 
 **多维表格结构验收**:
 - [ ] 教务联席会议记录表包含会议时间、议题、参会人员、会议纪要
@@ -387,7 +387,7 @@
 
 ---
 
-### Skill 20: lark-vocational-supervision（教学督导检查）
+### Skill 20: edu-vocational-supervision（教学督导检查）
 
 **多维表格结构验收**:
 - [ ] 教学督导检查记录表关联被检查对象、检查内容、检查结果
@@ -407,7 +407,7 @@
 
 ---
 
-### Skill 21: lark-vocational-classroom-observation（听课评课）
+### Skill 21: edu-vocational-classroom-observation（听课评课）
 
 **多维表格结构验收**:
 - [ ] 听课活动安排表按教研组、月份汇总
@@ -430,7 +430,7 @@
 
 ---
 
-### Skill 22: lark-vocational-teaching-research（教研活动）
+### Skill 22: edu-vocational-teaching-research（教研活动）
 
 **多维表格结构验收**:
 - [ ] 教研组工作手册表包含教研计划、活动记录、成果汇总
@@ -450,7 +450,7 @@
 
 ---
 
-### Skill 23: lark-vocational-parent-meeting（家长会）
+### Skill 23: edu-vocational-parent-meeting（家长会）
 
 **多维表格结构验收**:
 - [ ] 家长会管理表关联班级、时间、主题、参会人员、反馈
@@ -469,7 +469,7 @@
 
 ---
 
-### Skill 24: lark-vocational-training-center（实训中心管理）
+### Skill 24: edu-vocational-training-center（实训中心管理）
 
 **多维表格结构验收**:
 - [ ] 耗材登记表包含物品名称、规格、数量、用途
@@ -493,7 +493,7 @@
 
 ---
 
-### Skill 25: lark-vocational-online-course（网络课程管理）
+### Skill 25: edu-vocational-online-course（网络课程管理）
 
 **多维表格结构验收**:
 - [ ] 网络课程管理表关联课程信息、平台、建设进度
@@ -512,7 +512,7 @@
 
 ---
 
-### Skill 26: lark-vocational-credit-management（学分制管理）
+### Skill 26: edu-vocational-credit-management（学分制管理）
 
 **多维表格结构验收**:
 - [ ] 学分认定申请表关联学生、课程、原成绩、学分转换规则
@@ -534,7 +534,7 @@
 
 ---
 
-### Skill 27: lark-vocational-student-status（学生学籍管理）
+### Skill 27: edu-vocational-student-status（学生学籍管理）
 
 **多维表格结构验收**:
 - [ ] 学生学籍信息表包含学生基本信息、入学信息、学籍状态
@@ -552,7 +552,7 @@
 
 ---
 
-### Skill 28: lark-vocational-teacher-planning（师资队伍规划）
+### Skill 28: edu-vocational-teacher-planning（师资队伍规划）
 
 **多维表格结构验收**:
 - [ ] 师资队伍规划表包含现状分析、发展目标、保障措施
@@ -570,7 +570,7 @@
 
 ---
 
-### Skill 29: lark-vocational-teacher-training（教师培养计划）
+### Skill 29: edu-vocational-teacher-training（教师培养计划）
 
 **多维表格结构验收**:
 - [ ] 教师年度培养计划表关联培训类型、培训内容、培训时间
@@ -589,7 +589,7 @@
 
 ---
 
-### Skill 30: lark-vocational-teacher-evaluation（教师考核评价）
+### Skill 30: edu-vocational-teacher-evaluation（教师考核评价）
 
 **多维表格结构验收**:
 - [ ] 教师教学基本活动考核表覆盖教学态度、教学资料、教学过程、工作量、科研、教研活动
@@ -614,7 +614,7 @@
 
 ---
 
-### Skill 31: lark-vocational-teacher-mentoring（新教师带教）
+### Skill 31: edu-vocational-teacher-mentoring（新教师带教）
 
 **多维表格结构验收**:
 - [ ] 教师帮带工作手册表包含带教目标、阶段任务、评估标准
@@ -633,7 +633,7 @@
 
 ---
 
-### Skill 32: lark-vocational-enterprise-practice（企业实践锻炼）
+### Skill 32: edu-vocational-enterprise-practice（企业实践锻炼）
 
 **多维表格结构验收**:
 - [ ] 企业实践审批表包含实践企业、岗位、时间、内容
@@ -653,7 +653,7 @@
 
 ---
 
-### Skill 33: lark-vocational-research-management（科研课题管理）
+### Skill 33: edu-vocational-research-management（科研课题管理）
 
 **多维表格结构验收**:
 - [ ] 教育科研课题立项书表包含课题基本信息、研究内容、预期成果
@@ -673,7 +673,7 @@
 
 ---
 
-### Skill 34: lark-vocational-teacher-archive（教师业务档案）
+### Skill 34: edu-vocational-teacher-archive（教师业务档案）
 
 **多维表格结构验收**:
 - [ ] 教师基本情况登记表包含基本信息、资格证书、工作经历
@@ -689,7 +689,7 @@
 
 ---
 
-### Skill 35: lark-vocational-library（图书馆管理）
+### Skill 35: edu-vocational-library（图书馆管理）
 
 **多维表格结构验收**:
 - [ ] 图书征订单表包含书名、作者、出版社、ISBN、数量
@@ -712,7 +712,7 @@
 
 ---
 
-### Skill 36: lark-vocational-classroom-booking（教学场地借用）
+### Skill 36: edu-vocational-classroom-booking（教学场地借用）
 
 **多维表格结构验收**:
 - [ ] 教学场地使用申请表包含场地名称、使用时间、活动内容、负责人
