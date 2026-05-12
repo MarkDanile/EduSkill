@@ -16,7 +16,7 @@
 | 9 | edu-vocational-textbook | ⏳ 待开发 | 教材选用、征订、发放与反馈 |
 | 10 | edu-vocational-course-adjustment | ⏳ 待开发 | 调（代）课与停课申请管理 |
 | 11 | edu-vocational-teaching-plan | ⏳ 待开发 | 课程授课计划制定与管理 |
-| 12 | edu-vocational-lesson-plan | ⏳ 待开发 | 教案编写、提交与审核 |
+| 12 | edu-vocational-lesson-plan | ✅ 已完成 | 教案编写、提交与审核 |
 | 13 | edu-vocational-classroom-teaching | ⏳ 待开发 | 课堂教学记录与管理 |
 | 14 | edu-vocational-homework | ⏳ 待开发 | 作业布置、批改与登记 |
 | 15 | edu-vocational-tutoring | ⏳ 待开发 | 课外辅导与答疑安排记录 |
@@ -63,7 +63,33 @@ EduSkill/
 │   │   └── templates/
 │   │       └── feasibility-report-template.md
 │   ├── edu-vocational-feasibility-report.zip
-│   └── ... (其他34个技能待开发)
+│   ├── edu-vocational-lesson-plan/
+│   │   ├── SKILL.md
+│   │   ├── CHANGELOG.md
+│   │   ├── SKILL-DEVELOPMENT-GUIDE.md
+│   │   ├── assets/
+│   │   │   └── templates/
+│   │   │       ├── lecture-template.md
+│   │   │       ├── outline-template.md
+│   │   │       └── table-template.md
+│   │   ├── docs/
+│   │   │   └── prompts-for-deployment.md
+│   │   └── references/
+│   │       ├── examples/
+│   │       │   ├── professional-course-example.md
+│   │       │   └── public-course-example.md
+│   │       ├── standards/
+│   │       │   └── design-principles.md
+│   │       └── templates/
+│   │           ├── acceptance-checklist.md
+│   │           ├── deployment-guide-template.md
+│   │           ├── reflection-template.md
+│   │           ├── system-prompt-template.md
+│   │           ├── teaching-analysis.md
+│   │           ├── teaching-process.md
+│   │           └── user-trigger-template.md
+│   ├── edu-vocational-lesson-plan.zip
+│   └── ... (其他33个技能待开发)
 └── README.md
 ```
 
@@ -86,5 +112,5 @@ EduSkill/
 
 ## 开发进度
 
-- ✅ 已完成: 2/36
-- ⏳ 待开发: 34/36
+- ✅ 已完成: 3/36
+- ⏳ 待开发: 33/36

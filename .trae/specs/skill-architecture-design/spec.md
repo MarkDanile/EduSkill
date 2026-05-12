@@ -21,7 +21,7 @@
 | 9 | edu-vocational-textbook | 教学计划 | 教材选用、征订、发放与反馈 | ⏳ 待开发 |
 | 10 | edu-vocational-course-adjustment | 教学计划 | 调（代）课与停课申请管理 | ⏳ 待开发 |
 | 11 | edu-vocational-teaching-plan | 教学计划 | 课程授课计划制定与管理 | ⏳ 待开发 |
-| 12 | edu-vocational-lesson-plan | 课堂教学 | 教案编写、提交与审核 | ⏳ 待开发 |
+| 12 | edu-vocational-lesson-plan | 课堂教学 | 教案编写、提交与审核 | ✅ 已完成 |
 | 13 | edu-vocational-classroom-teaching | 课堂教学 | 课堂教学记录与管理 | ⏳ 待开发 |
 | 14 | edu-vocational-homework | 课堂教学 | 作业布置、批改与登记 | ⏳ 待开发 |
 | 15 | edu-vocational-tutoring | 课堂教学 | 课外辅导与答疑安排记录 | ⏳ 待开发 |
@@ -98,7 +98,7 @@
 
 ---
 
-### Skill 2: edu-vocational-major-application（专业设置可行性分析）
+### Skill 2: edu-vocational-feasibility-report（专业设置可行性分析）
 
 #### 功能定位
 覆盖新专业开设可行性论证与上海市新专业申报备案。
@@ -193,7 +193,7 @@
 
 ---
 
-### Skill 7: lark-vocational-semester-plan（部门学期工作计划）
+### Skill 7: edu-vocational-semester-plan（部门学期工作计划）
 
 #### 功能定位
 覆盖各部门学期工作计划的制定与审批。
@@ -211,7 +211,7 @@
 
 ---
 
-### Skill 8: lark-vocational-calendar（校历编制）
+### Skill 8: edu-vocational-calendar（校历编制）
 
 #### 功能定位
 覆盖学年校历编排与教学进程表管理。
@@ -231,7 +231,7 @@
 
 ---
 
-### Skill 9: lark-vocational-textbook（教材选用与征订）
+### Skill 9: edu-vocational-textbook（教材选用与征订）
 
 #### 功能定位
 覆盖教材选用计划、征订汇总、发放记录与使用反馈。
@@ -255,7 +255,7 @@
 
 ---
 
-### Skill 10: lark-vocational-course-adjustment（调代课管理）
+### Skill 10: edu-vocational-course-adjustment（调代课管理）
 
 #### 功能定位
 覆盖临时调课、代课申请与班级停课管理。
@@ -275,7 +275,7 @@
 
 ---
 
-### Skill 11: lark-vocational-teaching-plan（授课计划管理）
+### Skill 11: edu-vocational-teaching-plan（授课计划管理）
 
 #### 功能定位
 覆盖教师学期授课计划的制定与管理。
@@ -293,7 +293,7 @@
 
 ---
 
-### Skill 12: lark-vocational-lesson-plan（教案管理）
+### Skill 12: edu-vocational-lesson-plan（教案管理）
 
 #### 功能定位
 覆盖教师备课教案的编写、提交与审核。
@@ -312,7 +312,7 @@
 
 ---
 
-### Skill 13: lark-vocational-classroom-teaching（课堂教学记录）
+### Skill 13: edu-vocational-classroom-teaching（课堂教学记录）
 
 #### 功能定位
 覆盖课堂教学过程记录与管理。
@@ -330,7 +330,7 @@
 
 ---
 
-### Skill 14: lark-vocational-homework（作业批改管理）
+### Skill 14: edu-vocational-homework（作业批改管理）
 
 #### 功能定位
 覆盖作业布置、批改与登记管理。
@@ -348,7 +348,7 @@
 
 ---
 
-### Skill 15: lark-vocational-tutoring（课外辅导答疑）
+### Skill 15: edu-vocational-tutoring（课外辅导答疑）
 
 #### 功能定位
 覆盖课外辅导与答疑的安排与记录。
@@ -367,7 +367,7 @@
 
 ---
 
-### Skill 16: lark-vocational-teaching-log（教学日志）
+### Skill 16: edu-vocational-teaching-log（教学日志）
 
 #### 功能定位
 覆盖教学日志填写与学生教学反馈调查。
@@ -386,7 +386,7 @@
 
 ---
 
-### Skill 17: lark-vocational-practice-management（实训实习管理）
+### Skill 17: edu-vocational-practice-management（实训实习管理）
 
 #### 功能定位
 覆盖实训教学、工学交替、顶岗实习等实践教学环节的全过程管理。
@@ -409,7 +409,7 @@
 
 ---
 
-### Skill 18: lark-vocational-exam-management（考务管理）
+### Skill 18: edu-vocational-exam-management（考务管理）
 
 #### 功能定位
 覆盖考试全流程管理，包括试卷命题、监考安排、阅卷评分、成绩管理、补考缓考等业务。
@@ -445,7 +445,7 @@
 
 ---
 
-### Skill 19: lark-vocational-academic-meeting（教务联席会议）
+### Skill 19: edu-vocational-academic-meeting（教务联席会议）
 
 #### 功能定位
 覆盖教务联席会议的管理与记录。
@@ -463,7 +463,7 @@
 
 ---
 
-### Skill 20: lark-vocational-supervision（教学督导检查）
+### Skill 20: edu-vocational-supervision（教学督导检查）
 
 #### 功能定位
 覆盖教学督导检查与教学事故处理。
@@ -483,7 +483,7 @@
 
 ---
 
-### Skill 21: lark-vocational-classroom-observation（听课评课）
+### Skill 21: edu-vocational-classroom-observation（听课评课）
 
 #### 功能定位
 覆盖听课评课安排、记录与评分。
@@ -506,7 +506,7 @@
 
 ---
 
-### Skill 22: lark-vocational-teaching-research（教研活动）
+### Skill 22: edu-vocational-teaching-research（教研活动）
 
 #### 功能定位
 覆盖教研活动的申报、管理与校际交流记录。
@@ -526,7 +526,7 @@
 
 ---
 
-### Skill 23: lark-vocational-parent-meeting（家长会）
+### Skill 23: edu-vocational-parent-meeting（家长会）
 
 #### 功能定位
 覆盖家长委员会管理与家长会组织。
@@ -547,7 +547,7 @@
 
 ---
 
-### Skill 24: lark-vocational-training-center（实训中心管理）
+### Skill 24: edu-vocational-training-center（实训中心管理）
 
 #### 功能定位
 覆盖实训中心设备、耗材与使用记录管理。
@@ -570,7 +570,7 @@
 
 ---
 
-### Skill 25: lark-vocational-online-course（网络课程管理）
+### Skill 25: edu-vocational-online-course（网络课程管理）
 
 #### 功能定位
 覆盖网络在线课程建设与精品课程申报。
@@ -591,7 +591,7 @@
 
 ---
 
-### Skill 26: lark-vocational-credit-management（学分制管理）
+### Skill 26: edu-vocational-credit-management（学分制管理）
 
 #### 功能定位
 覆盖学生学分认定与转换管理。
@@ -609,7 +609,7 @@
 
 ---
 
-### Skill 27: lark-vocational-student-status（学生学籍管理）
+### Skill 27: edu-vocational-student-status（学生学籍管理）
 
 #### 功能定位
 覆盖学生学籍信息全生命周期管理。
@@ -628,7 +628,7 @@
 
 ---
 
-### Skill 28: lark-vocational-teacher-planning（师资队伍规划）
+### Skill 28: edu-vocational-teacher-planning（师资队伍规划）
 
 #### 功能定位
 覆盖师资队伍规划编制。
@@ -647,7 +647,7 @@
 
 ---
 
-### Skill 29: lark-vocational-teacher-training（教师培养计划）
+### Skill 29: edu-vocational-teacher-training（教师培养计划）
 
 #### 功能定位
 覆盖教师年度培养计划与个人发展规划。
@@ -667,7 +667,7 @@
 
 ---
 
-### Skill 30: lark-vocational-teacher-evaluation（教师考核评价）
+### Skill 30: edu-vocational-teacher-evaluation（教师考核评价）
 
 #### 功能定位
 覆盖教师多维度考核评价。
@@ -700,7 +700,7 @@
 
 ---
 
-### Skill 31: lark-vocational-teacher-mentoring（新教师带教）
+### Skill 31: edu-vocational-teacher-mentoring（新教师带教）
 
 #### 功能定位
 覆盖新教师带教与兼职教师聘任。
@@ -720,7 +720,7 @@
 
 ---
 
-### Skill 32: lark-vocational-enterprise-practice（企业实践锻炼）
+### Skill 32: edu-vocational-enterprise-practice（企业实践锻炼）
 
 #### 功能定位
 覆盖教师企业实践锻炼管理。
@@ -741,7 +741,7 @@
 
 ---
 
-### Skill 33: lark-vocational-research-management（科研课题管理）
+### Skill 33: edu-vocational-research-management（科研课题管理）
 
 #### 功能定位
 覆盖科研课题与成果评选管理。
@@ -761,7 +761,7 @@
 
 ---
 
-### Skill 34: lark-vocational-teacher-archive（教师业务档案）
+### Skill 34: edu-vocational-teacher-archive（教师业务档案）
 
 #### 功能定位
 覆盖教师业务档案全生命周期管理。
@@ -779,7 +779,7 @@
 
 ---
 
-### Skill 35: lark-vocational-library（图书馆管理）
+### Skill 35: edu-vocational-library（图书馆管理）
 
 #### 功能定位
 覆盖图书馆图书征订、借阅管理。
@@ -803,7 +803,7 @@
 
 ---
 
-### Skill 36: lark-vocational-classroom-booking（教学场地借用）
+### Skill 36: edu-vocational-classroom-booking（教学场地借用）
 
 #### 功能定位
 覆盖教学场地借用管理。
@@ -835,7 +835,7 @@
 9. **edu-vocational-textbook** - 教材选用与征订
 10. **edu-vocational-course-adjustment** - 调代课管理
 11. **edu-vocational-teaching-plan** - 授课计划管理
-12. **edu-vocational-lesson-plan** - 教案管理
+12. **edu-vocational-lesson-plan** - 教案管理 ✅
 13. **edu-vocational-classroom-teaching** - 课堂教学记录
 14. **edu-vocational-homework** - 作业批改管理
 15. **edu-vocational-tutoring** - 课外辅导答疑
