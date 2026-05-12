@@ -21,11 +21,10 @@ EduSkill 是一个面向中高职院校教学管理AI数字化的技能开发项
 ```
 EduSkill/
 ├── skills/                              # AI技能目录
-│   ├── edu-vocational-talent-survey/   # 技能1：人才需求调研
-│   │   ├── SKILL.md
-│   │   ├── references/                   # 参考文档
-│   │   └── templates/                    # 文档模板
-│   └── ...                               # 更多技能
+│   ├── edu-vocational-talent-survey/    # 技能1：人才需求调研
+│   ├── edu-vocational-feasibility-report/ # 技能2：专业可行性分析
+│   ├── edu-vocational-lesson-plan/      # 技能12：教案管理
+│   └── ...                               # 更多技能（待开发）
 │
 ├── specs/                                # 开发规范文档
 │   └── skill-architecture-design/
@@ -38,7 +37,7 @@ EduSkill/
 
 ## 📦 已发布技能
 
-### 1. edu-vocational-talent-survey（专业人才需求调研）
+### ✅ 技能1：edu-vocational-talent-survey（专业人才需求调研）
 
 **功能：** 通过对话引导+AI搜索，自动生成专业人才需求调研方案和报告
 
@@ -55,6 +54,111 @@ EduSkill/
 **文件位置：** `skills/edu-vocational-talent-survey/`
 
 **下载包：** `skills/edu-vocational-talent-survey.zip`
+
+---
+
+### ✅ 技能2：edu-vocational-feasibility-report（专业设置可行性分析报告编制）
+
+**功能：** 聚焦高效、高质量地编制专业设置可行性分析报告，支持智能推断、AI自动搜索政策数据、生成符合学校规范的完整报告
+
+**适用场景：**
+- 学校计划开设新专业需要申报备案
+- 专业设置可行性论证
+- 新设专业备案申请
+
+**核心流程：**
+```
+极简对话（提供专业名称+层次） → AI自动推断补充信息 → AI智能搜索最新政策/行业数据 → 生成符合学校模板的报告 → 用户优化调整
+```
+
+**报告特点：**
+- ✅ 政策引用规范（标注文件名称、发布单位、发布时间）
+- ✅ 数据来源明确（标注数据来源、发布时间、具体数值）
+- ✅ 论述详实有逻辑（必要性四维度、可行性五方面）
+- ✅ 内容完整无遗漏（符合学校模板要求）
+
+**文件位置：** `skills/edu-vocational-feasibility-report/`
+
+**下载包：** `skills/edu-vocational-feasibility-report.zip`
+
+---
+
+### ✅ 技能12：edu-vocational-lesson-plan（中高职院校教案生成助手）
+
+**功能：** 支持精准/快速两种模式，自动生成符合职业教育规范的个性化教案，支持表格式/讲义式/提纲式等多种教案格式
+
+**适用场景：**
+- 编写中高职院校专业课、公共基础课教案
+- 提供课程名称、课题、教学要求时
+- 生成符合职业教育特色的教案
+
+**核心特点：**
+- 🎯 **双模式支持**：精准模式（详细）/粗犷模式（快速）
+- 📋 **多样化格式**：表格式/讲义式/提纲式
+- 💡 **职教特色**：融入项目化教学、课程思政、岗课赛证融合
+- 🤖 **智能生成**：AI根据课程信息自动生成完整教案
+
+**文件位置：** `skills/edu-vocational-lesson-plan/`
+
+**下载包：** `skills/edu-vocational-lesson-plan.zip`
+
+---
+
+## 📖 技能列表（36个规划）
+
+### Phase 1: 基础建设（18个核心Skill）
+
+| 编号 | 技能名称 | 功能 | 状态 |
+|------|----------|------|------|
+| 1 | edu-vocational-talent-survey | 专业人才需求调研 | ✅ 已完成 |
+| 2 | edu-vocational-feasibility-report | 专业设置可行性分析报告编制 | ✅ 已完成 |
+| 3 | edu-vocational-major-planning | 专业建设子规划 | ⏳ 待开发 |
+| 4 | edu-vocational-teaching-scheme | 专业教学实施方案 | ⏳ 待开发 |
+| 5 | edu-vocational-course-standard | 课程标准管理 | ⏳ 待开发 |
+| 6 | edu-vocational-major-evaluation | 专业建设评价 | ⏳ 待开发 |
+| 7 | edu-vocational-semester-plan | 部门学期工作计划 | ⏳ 待开发 |
+| 8 | edu-vocational-calendar | 校历编制 | ⏳ 待开发 |
+| 9 | edu-vocational-textbook | 教材选用与征订 | ⏳ 待开发 |
+| 10 | edu-vocational-course-adjustment | 调代课管理 | ⏳ 待开发 |
+| 11 | edu-vocational-teaching-plan | 授课计划管理 | ⏳ 待开发 |
+| 12 | edu-vocational-lesson-plan | 教案管理 | ✅ 已完成 |
+| 13 | edu-vocational-classroom-teaching | 课堂教学记录 | ⏳ 待开发 |
+| 14 | edu-vocational-homework | 作业批改管理 | ⏳ 待开发 |
+| 15 | edu-vocational-tutoring | 课外辅导答疑 | ⏳ 待开发 |
+| 16 | edu-vocational-teaching-log | 教学日志 | ⏳ 待开发 |
+| 17 | edu-vocational-practice-management | 实训实习管理 | ⏳ 待开发 |
+| 18 | edu-vocational-exam-management | 考务管理 | ⏳ 待开发 |
+
+### Phase 2: 扩展完善（18个扩展Skill）
+
+| 编号 | 技能名称 | 功能 | 状态 |
+|------|----------|------|------|
+| 19 | edu-vocational-academic-meeting | 教务联席会议 | ⏳ 待开发 |
+| 20 | edu-vocational-supervision | 教学督导检查 | ⏳ 待开发 |
+| 21 | edu-vocational-classroom-observation | 听课评课 | ⏳ 待开发 |
+| 22 | edu-vocational-teaching-research | 教研活动 | ⏳ 待开发 |
+| 23 | edu-vocational-parent-meeting | 家长会 | ⏳ 待开发 |
+| 24 | edu-vocational-training-center | 实训中心管理 | ⏳ 待开发 |
+| 25 | edu-vocational-online-course | 网络课程管理 | ⏳ 待开发 |
+| 26 | edu-vocational-credit-management | 学分制管理 | ⏳ 待开发 |
+| 27 | edu-vocational-student-status | 学生学籍管理 | ⏳ 待开发 |
+| 28 | edu-vocational-teacher-planning | 师资队伍规划 | ⏳ 待开发 |
+| 29 | edu-vocational-teacher-training | 教师培养计划 | ⏳ 待开发 |
+| 30 | edu-vocational-teacher-evaluation | 教师考核评价 | ⏳ 待开发 |
+| 31 | edu-vocational-teacher-mentoring | 新教师带教 | ⏳ 待开发 |
+| 32 | edu-vocational-enterprise-practice | 企业实践锻炼 | ⏳ 待开发 |
+| 33 | edu-vocational-research-management | 科研课题管理 | ⏳ 待开发 |
+| 34 | edu-vocational-teacher-archive | 教师业务档案 | ⏳ 待开发 |
+| 35 | edu-vocational-library | 图书馆管理 | ⏳ 待开发 |
+| 36 | edu-vocational-classroom-booking | 教学场地借用 | ⏳ 待开发 |
+
+### 开发进度统计
+
+| 阶段 | 总数 | 已完成 | 待开发 |
+|------|------|--------|--------|
+| Phase 1（基础建设） | 18 | 3 | 15 |
+| Phase 2（扩展完善） | 18 | 0 | 18 |
+| **总计** | **36** | **3** | **33** |
 
 ---
 
@@ -76,6 +180,8 @@ ls -la skills/
 3. **查看技能详情**
 ```bash
 cat skills/edu-vocational-talent-survey/SKILL.md
+cat skills/edu-vocational-feasibility-report/SKILL.md
+cat skills/edu-vocational-lesson-plan/SKILL.md
 ```
 
 ### 下载技能包
@@ -246,59 +352,6 @@ Coze 支持通过 Bot 对话形式使用技能。导出步骤：
 # Output Format
 [输出格式要求]
 ```
-
----
-
-## 📖 技能列表（规划中）
-
-### Phase 1: 基础建设（18个核心Skill）
-
-| 编号 | 技能名称 | 功能 | 状态 |
-|------|----------|------|------|
-| 1 | edu-vocational-talent-survey | 专业人才需求调研 | ✅ 已完成 |
-| 2 | edu-vocational-major-application | 新专业申报备案 | 📋 待开发 |
-| 3 | edu-vocational-major-planning | 专业建设子规划 | 📋 待开发 |
-| 4 | edu-vocational-teaching-scheme | 专业教学实施方案 | 📋 待开发 |
-| 5 | edu-vocational-course-standard | 课程标准管理 | 📋 待开发 |
-| 6 | edu-vocational-major-evaluation | 专业建设评价 | 📋 待开发 |
-| 7 | edu-vocational-semester-plan | 部门学期工作计划 | 📋 待开发 |
-| 8 | edu-vocational-calendar | 校历编制 | 📋 待开发 |
-| 9 | edu-vocational-textbook | 教材选用与征订 | 📋 待开发 |
-| 10 | edu-vocational-course-adjustment | 调代课管理 | 📋 待开发 |
-| 11 | edu-vocational-teaching-plan | 授课计划管理 | 📋 待开发 |
-| 12 | edu-vocational-lesson-plan | 教案管理 | ✅ 已完成 |
-| 13 | edu-vocational-classroom-teaching | 课堂教学记录 | 📋 待开发 |
-| 14 | edu-vocational-homework | 作业批改管理 | 📋 待开发 |
-| 15 | edu-vocational-tutoring | 课外辅导答疑 | 📋 待开发 |
-| 16 | edu-vocational-teaching-log | 教学日志 | 📋 待开发 |
-| 17 | edu-vocational-practice-management | 实训实习管理 | 📋 待开发 |
-| 18 | edu-vocational-exam-management | 考务管理 | 📋 待开发 |
-| 19 | edu-vocational-academic-meeting | 教务联席会议 | 📋 待开发 |
-| 20 | edu-vocational-supervision | 教学督导检查 | 📋 待开发 |
-| 21 | edu-vocational-classroom-observation | 听课评课 | 📋 待开发 |
-| 22 | edu-vocational-teaching-research | 教研活动 | 📋 待开发 |
-| 23 | edu-vocational-parent-meeting | 家长会 | 📋 待开发 |
-| 24 | edu-vocational-training-center | 实训中心管理 | 📋 待开发 |
-| 25 | edu-vocational-online-course | 网络课程管理 | 📋 待开发 |
-| 26 | edu-vocational-credit-management | 学分制管理 | 📋 待开发 |
-| 27 | edu-vocational-student-status | 学生学籍管理 | 📋 待开发 |
-| 28 | edu-vocational-teacher-planning | 师资队伍规划 | 📋 待开发 |
-| 29 | edu-vocational-teacher-training | 教师培养计划 | 📋 待开发 |
-| 30 | edu-vocational-teacher-evaluation | 教师考核评价 | 📋 待开发 |
-| 31 | edu-vocational-teacher-mentoring | 新教师带教 | 📋 待开发 |
-| 32 | edu-vocational-enterprise-practice | 企业实践锻炼 | 📋 待开发 |
-| 33 | edu-vocational-research-management | 科研课题管理 | 📋 待开发 |
-| 34 | edu-vocational-teacher-archive | 教师业务档案 | 📋 待开发 |
-| 35 | edu-vocational-library | 图书馆管理 | 📋 待开发 |
-| 36 | edu-vocational-classroom-booking | 教学场地借用 | 📋 待开发 |
-
-### 开发进度统计
-
-| 阶段 | 总数 | 已完成 | 待开发 |
-|------|------|--------|--------|
-| Phase 1（基础建设） | 18 | 1 | 17 |
-| Phase 2（扩展完善） | 18 | 0 | 18 |
-| **总计** | **36** | **1** | **35** |
 
 ---
 
