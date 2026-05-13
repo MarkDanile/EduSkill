@@ -14,7 +14,7 @@
 | 2 | edu-vocational-feasibility-report | 专业建设 | 专业设置可行性分析报告编制 | ✅ 已完成 |
 | 3 | edu-vocational-major-planning | 专业建设 | 专业建设子规划编制与管理 | ✅ 已完成 |
 | 4 | edu-vocational-teaching-scheme | 专业建设 | 专业教学实施方案（中高职贯通/三年制）编制 | ✅ 已完成 |
-| 5 | edu-vocational-course-standard | 专业建设 | 课程标准审批与管理 | ⏳ 待开发 |
+| 5 | edu-vocational-course-standard | 专业建设 | 课程标准审批与管理 | ✅ 已完成 |
 | 6 | edu-vocational-major-evaluation | 专业建设 | 专业建设评价指标体系与考核 | ⏳ 待开发 |
 | 7 | edu-vocational-semester-plan | 教学计划 | 部门学期工作计划制定与审批 | ⏳ 待开发 |
 | 8 | edu-vocational-calendar | 教学计划 | 校历编制与教学进程表管理 | ⏳ 待开发 |
