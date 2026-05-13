@@ -10,8 +10,8 @@
 | 3 | edu-vocational-major-planning | ✅ 已完成 | 专业建设子规划编制与管理 |
 | 4 | edu-vocational-teaching-scheme | ✅ 已完成 | 专业教学实施方案（中高职贯通/三年制）编制 |
 | 5 | edu-vocational-course-standard | ✅ 已完成 | 课程标准审批与管理 |
-| 6 | edu-vocational-major-evaluation | ⏳ 待开发 | 专业建设评价指标体系与考核 |
-| 7 | edu-vocational-semester-plan | ⏳ 待开发 | 部门学期工作计划制定与审批 |
+| 6 | edu-vocational-major-evaluation | ✅ 已完成 | 专业建设评价指标体系与考核 |
+| 7 | edu-vocational-semester-plan | ✅ 已完成 | 部门学期工作计划制定与审批 |
 | 8 | edu-vocational-calendar | ⏳ 待开发 | 校历编制与教学进程表管理 |
 | 9 | edu-vocational-textbook | ⏳ 待开发 | 教材选用、征订、发放与反馈 |
 | 10 | edu-vocational-course-adjustment | ⏳ 待开发 | 调（代）课与停课申请管理 |
@@ -112,5 +112,5 @@ EduSkill/
 
 ## 开发进度
 
-- ✅ 已完成: 6/36
-- ⏳ 待开发: 30/36
+- ✅ 已完成: 7/36
+- ⏳ 待开发: 29/36
