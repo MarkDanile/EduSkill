@@ -17,7 +17,7 @@
 | 5 | edu-vocational-course-standard | 专业建设 | 课程标准审批与管理 | ✅ 已完成 |
 | 6 | edu-vocational-major-evaluation | 专业建设 | 专业建设评价指标体系与考核 | ✅ 已完成 |
 | 7 | edu-vocational-semester-plan | 教学计划 | 部门学期工作计划制定与审批 | ✅ 已完成 |
-| 8 | edu-vocational-calendar | 教学计划 | 校历编制与教学进程表管理 | ⏳ 待开发 |
+| 8 | edu-vocational-calendar | 教学计划 | 校历编制与教学进程表管理 | ✅ 已完成 |
 | 9 | edu-vocational-textbook | 教学计划 | 教材选用、征订、发放与反馈 | ⏳ 待开发 |
 | 10 | edu-vocational-course-adjustment | 教学计划 | 调（代）课与停课申请管理 | ⏳ 待开发 |
 | 11 | edu-vocational-teaching-plan | 教学计划 | 课程授课计划制定与管理 | ⏳ 待开发 |
